@@ -6,9 +6,9 @@ FROM openjdk:8-jre as base-amd64
 
 # -----------------------------------------------------------------------------
 
-ARG TARGETARCH
-ARG TARGETVARIANT
-FROM base-$TARGETARCH$TARGETVARIANT
+#ARG TARGETARCH
+#ARG TARGETVARIANT
+#FROM base-$TARGETARCH$TARGETVARIANT
 
 ENV MARY_BASE=/marytts
 
